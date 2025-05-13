@@ -9,7 +9,7 @@ public class GameDirector : MonoBehaviour
     public int EnemyCount = 2;
     // Start is called before the first frame update
     void Start()
-    {  
+    {
         GameOver = GameObject.Find("GameOver");
     }
 
